@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import useTodo from '@/composables/useTodo';
-    import TodoItem from '@/components/TodoItem.vue';
-    import AddTodo from '@/components/AddTodo.vue';
+    import TodoItem from '@/components/todo/TodoItem.vue';
+    import AddTodo from '@/components/todo/AddTodo.vue';
 
     const { data } = useTodo();
 </script>
